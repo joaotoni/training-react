@@ -1,4 +1,5 @@
 import List from "../../products.json"
+import Cards from "../Card"
 
 
 export default function Main(){
@@ -7,8 +8,6 @@ export default function Main(){
     
 
     return(
-        <>
-        {console.log(List)}
-        </>
+      <Cards />
     )
 }
