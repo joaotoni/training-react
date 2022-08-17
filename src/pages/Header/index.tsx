@@ -1,4 +1,4 @@
-import CartButton from "../Button/ButtonHeader";
+import CartButton from "../../components/Button/ButtonHeader";
 
 export default function Header(){
     return(
