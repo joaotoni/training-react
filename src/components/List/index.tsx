@@ -1,10 +1,9 @@
-import { useContext } from "react"
 import List from "../../products.json"
 
-export default function Card(){
-    const AddItems = useContext(AddItemsContext);
+export default function Lists(){    
+
     return(
-        <section>
+        <>
             <div className="">
                  {List.map((card) => (
                     <div className="flex flex-wrap justify-center m-0 p-4">
@@ -20,6 +19,6 @@ export default function Card(){
                     </div>
                  ))}  
             </div>
-        </section>
+        </>
     )
 }

@@ -1,13 +1,11 @@
-import Header from "./pages/Header"
-import Main from "./pages/Main"
+import Routes from "./Routes"
 import "./styles/global.css"
 
 function App() {
 
   return (
     <div className="Ap">
-      <Header />
-      <Main />
+      <Routes />
     </div>
   )
 }
